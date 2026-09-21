@@ -363,7 +363,7 @@
     var bgs = D.backgrounds || [];
     if(!bgs.length) return;
     var el=document.querySelector('.fondo');
-    var overlay="linear-gradient(150deg, rgba(15,19,26,.86) 0%, rgba(20,28,42,.80) 55%, rgba(28,18,20,.84) 100%)";
+    var overlay="linear-gradient(150deg, rgba(15,19,26,.80) 0%, rgba(20,28,42,.72) 55%, rgba(28,18,20,.78) 100%)";
     function setBg(i){
       el.style.backgroundImage = overlay+", url('"+encodeURI(bgs[i])+"')";
       el.style.backgroundSize = "cover, cover";
