@@ -363,12 +363,12 @@
     var bgs = D.backgrounds || [];
     if(!bgs.length) return;
     var el=document.querySelector('.fondo');
-    var overlay="linear-gradient(150deg, rgba(15,19,26,.80) 0%, rgba(20,28,42,.72) 55%, rgba(28,18,20,.78) 100%)";
+    var overlay="linear-gradient(180deg, rgba(8,11,16,.72) 0px, rgba(8,11,16,.42) 300px, rgba(8,11,16,.10) 460px), linear-gradient(150deg, rgba(15,19,26,.62) 0%, rgba(20,28,42,.54) 55%, rgba(28,18,20,.60) 100%)";
     function setBg(i){
       el.style.backgroundImage = overlay+", url('"+encodeURI(bgs[i])+"')";
-      el.style.backgroundSize = "cover, cover";
-      el.style.backgroundPosition = "center, center";
-      el.style.backgroundRepeat = "no-repeat, no-repeat";
+      el.style.backgroundSize = "cover, cover, cover";
+      el.style.backgroundPosition = "center, center, center";
+      el.style.backgroundRepeat = "no-repeat, no-repeat, no-repeat";
     }
     var svg=el.querySelector('svg'); if(svg) svg.style.display='none';
     setBg(0);
