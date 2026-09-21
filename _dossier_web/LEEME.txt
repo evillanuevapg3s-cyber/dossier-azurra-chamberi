@@ -1,0 +1,70 @@
+====================================================================
+  DOSSIER DE CALIDAD AZURRA CHAMBERI  -  PAGINA WEB DE VISUALIZACION
+  SUN FIRE SAC  |  Contrato N. ANX-989-26
+====================================================================
+
+1) COMO ABRIR LA PAGINA
+   - EN LINEA: usa el enlace de GitHub Pages del repositorio
+     (aparece en la portada del repositorio, seccion "About").
+   - SIN INTERNET: haz doble clic en el archivo  "index.html"  (esta
+     en esta misma carpeta del Dossier, un nivel arriba de este archivo).
+   - Puedes navegar por las carpetas, ver cada documento dentro de la
+     pagina y descargarlo (por seccion o todo el dossier en ZIP).
+
+2) COLOCAR EL LOGO DEL CLIENTE (AZZURRA)
+   - Guarda el logo en esta carpeta (_dossier_web) con el nombre EXACTO:
+        logo-cliente.png
+   - Formato recomendado: PNG con fondo transparente.
+   - Mientras no exista, la pagina muestra un logo de texto provisional.
+   - El logo del ejecutor ya esta puesto:  logo-sunfire.png
+
+3) IMAGENES DE FONDO DEL PROYECTO (opcional)
+   - El fondo actual es institucional (sin fotos). Si quieres fotos o
+     renders del edificio, copialos dentro de la carpeta
+        _dossier_web\bg
+     y regenera el indice (paso 4). La pagina los rota automaticamente.
+
+4) ACTUALIZAR EL INDICE CUANDO AGREGUES O QUITES DOCUMENTOS
+   La pagina muestra una "foto" del contenido al momento de generarla.
+   Si agregas o eliminas archivos en las carpetas (00, 01, 02, ...),
+   debes regenerar el indice:
+
+   OPCION A (la mas simple):
+     - Pidele a Claude:  "actualiza el indice del dossier Azurra".
+
+   OPCION B (tu mismo, con Windows):
+     - Clic derecho en  "Actualizar-Indice.ps1"  ->  "Ejecutar con PowerShell".
+     - Si Windows lo bloquea, abre PowerShell y ejecuta una vez:
+         Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
+       y vuelve a ejecutar el script.
+     - Luego recarga (F5) la pagina index.html.
+
+   IMPORTANTE: para que el cambio se vea EN LA WEB hay que hacer commit
+   y push del repositorio (GitHub Desktop: "Commit to main" y luego
+   "Push origin"). En GitHub Pages el cambio tarda 1-2 minutos.
+
+5) QUE NO DEBES BORRAR
+   - La carpeta  _dossier_web  (contiene el indice, el logo y el script).
+   - El archivo  index.html.
+   - Los archivos  .gitkeep  (mantienen visibles las secciones vacias).
+   Los documentos del Dossier (PDFs, etc.) puedes moverlos libremente;
+   solo recuerda regenerar el indice despues (paso 4).
+
+6) DONDE VA CADA DOCUMENTO
+   00. ACTA DE RECEPCION                     Acta de entrega/recepcion de obra
+   01. FICHAS TECNICAS                       Fichas y certificados de materiales
+       ACI / DyA / IM / Tableros Electricos
+   02. CARTA DE GARANTIA MATERIALES          Garantias de los proveedores
+   03. PROTOCOLOS Y PRUEBAS                  Hidrostaticas, caudales, pruebas electricas
+   04. CERT. DE EQUIPO DE CALIBRACION        Manometros, anemometro, medidor de espesores
+   05. CARTA DE GARANTIA DEL SISTEMA         Garantia emitida por SUN FIRE SAC
+   06. CERTIFICADO DE OPERATIVIDAD           Operatividad por sistema
+   07. MANUAL DE OPERACION                   Manuales por sistema
+   08. CRONOGRAMA DE MANTENIMIENTO           Plan de mantenimiento preventivo
+   09. PLANOS AS BUILT                       ACI / DACI / IIMM / Tableros Electricos
+   11. POST VENTA                            Carta y condiciones de post venta
+
+--------------------------------------------------------------------
+Nota: La pagina es solo para visualizacion y descarga. La validez
+oficial corresponde a los documentos firmados del Dossier.
+--------------------------------------------------------------------

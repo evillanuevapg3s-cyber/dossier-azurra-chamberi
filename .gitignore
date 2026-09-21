@@ -1,0 +1,10 @@
+# Basura de Windows / OneDrive
+Thumbs.db
+ehthumbs.db
+desktop.ini
+$RECYCLE.BIN/
+# Temporales de Office
+~$*
+*.tmp
+# macOS
+.DS_Store
