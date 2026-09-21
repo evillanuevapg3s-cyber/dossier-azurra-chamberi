@@ -11,18 +11,26 @@
    - Puedes navegar por las carpetas, ver cada documento dentro de la
      pagina y descargarlo (por seccion o todo el dossier en ZIP).
 
-2) COLOCAR EL LOGO DEL CLIENTE (AZZURRA)
-   - Guarda el logo en esta carpeta (_dossier_web) con el nombre EXACTO:
-        logo-cliente.png
-   - Formato recomendado: PNG con fondo transparente.
-   - Mientras no exista, la pagina muestra un logo de texto provisional.
-   - El logo del ejecutor ya esta puesto:  logo-sunfire.png
+2) LOGOS
+   - Ya estan colocados los dos:
+        logo-sunfire.png   (ejecutor)
+        logo-cliente.png   (AZZURRA constructores)
+   - Si quieres reemplazar alguno, guardalo en esta carpeta (_dossier_web)
+     con el MISMO nombre de archivo. Formato: PNG con fondo transparente.
+   - Si el logo es blanco (para fondos oscuros) no se vera: el recuadro de
+     la pagina es blanco. Usa una version oscura del logo.
 
-3) IMAGENES DE FONDO DEL PROYECTO (opcional)
-   - El fondo actual es institucional (sin fotos). Si quieres fotos o
-     renders del edificio, copialos dentro de la carpeta
-        _dossier_web\bg
-     y regenera el indice (paso 4). La pagina los rota automaticamente.
+3) IMAGENES DE FONDO DEL PROYECTO
+   - El fondo rota 8 imagenes del proyecto cada 9 segundos, en este orden:
+        01-fachada-dia          04-fachada-atardecer
+        02-fachada-noche        05 a 08: interiores (sala, comedor, dormitorio)
+        03-fachada-detalle
+   - Estan en la carpeta  _dossier_web/bg
+   - Para agregar, quitar o cambiar el orden: copia o borra archivos en esa
+     carpeta (el orden es alfabetico, por eso van numerados) y regenera el
+     indice (paso 4).
+   - Recomendacion: imagenes horizontales de 1600 px de ancho o mas. Las
+     imagenes pequenas se ven pixeleadas al estirarse a pantalla completa.
 
 4) ACTUALIZAR EL INDICE CUANDO AGREGUES O QUITES DOCUMENTOS
    La pagina muestra una "foto" del contenido al momento de generarla.

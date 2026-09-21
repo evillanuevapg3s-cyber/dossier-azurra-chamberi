@@ -37,9 +37,10 @@ El índice del visor es una "foto" del contenido. Tras agregar o quitar archivos
 ejecuta `_dossier_web/Actualizar-Indice.ps1` (clic derecho → Ejecutar con PowerShell)
 y vuelve a hacer commit. Ver `_dossier_web/LEEME.txt` para más detalle.
 
-## Logo del cliente
-Coloca el logo de AZZURRA en `_dossier_web/logo-cliente.png` (PNG con fondo transparente).
-Mientras no exista, la página muestra un logo de texto provisional.
+## Imagenes y logos
+- Logos del ejecutor y del cliente en `_dossier_web/logo-sunfire.png` y `_dossier_web/logo-cliente.png`.
+- El fondo rota 8 imagenes del proyecto desde `_dossier_web/bg/`: 4 renders de fachada y 4 de interiores.
+  Para cambiarlas, copia o borra archivos en esa carpeta (el orden es alfabetico) y regenera el indice.
 
 ---
 Visualización referencial. La validez oficial corresponde a los documentos firmados del Dossier.
